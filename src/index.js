@@ -25,7 +25,7 @@ app.listen(app.get('port'), () => {
     console.log('Node server running...')
     return
   }
-  
+
   console.log(`Node server running on http://localhost:${app.get('port')}`)
   console.log(`Try http://localhost:${app.get('port')}`)
 })
