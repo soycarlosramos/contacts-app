@@ -5,9 +5,8 @@
   "type": "module",
   "repository": "https://github.com/soycarlosramos/contacts-app.git",
   "author": "Carlos Mario Ramos Pérez <carlosmarioramos34@gmail.com>",
-  "license": "MIT",
   "scripts": {
-    "start:tailwindcss": "tailwindcss -i ./src/styles/tailwindcss/input.css -o ./src/styles/output.css -w",
+    "start:tailwindcss": "tailwindcss -i ./src/public/css/input.css -o ./src/public/css/output.css -w",
     "start:dev": "cross-env NODE_ENV=development nodemon ./src/index.js",
     "start": "cross-env NODE_ENV=production node ./src/index.js"
   },
